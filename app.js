@@ -108,11 +108,6 @@ let clicked = function(answer){
 const iconContainer = function(){
     // isBox = false;
 
-
-
-
-
-
     const triangleContainer = function(){
         // the triangle container
         let triangle = document.createElement('div')
@@ -292,7 +287,7 @@ function whoWon( user , houseChoice ) {
         // }else{
         //     whoWon(userAnswer, houseAnswer)
         // }
-        whoWon(userAnswer, houseAnswer)
+        // whoWon(userAnswer, houseAnswer)
 
 }
 

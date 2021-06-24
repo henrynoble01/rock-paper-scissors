@@ -14,3 +14,15 @@
     //             break;
     //     }
     // }
+
+
+    // switch (params) {
+    //     case 'YOU WIN':
+    //         console.log( `user score ${userScoreCount }` );
+    //         break;
+    //     case 'YOU LOSE':
+    //         console.log( `House Score ${houseScoreCount }`);
+    //     default:
+    //         console.log('Add nothing')
+    //         break;
+    // }
