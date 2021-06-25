@@ -17,7 +17,7 @@ const userChoice = {
         border: '15px solid hsl(39, 89%, 49%)'
     },
 }
-let options = ['rock', 'paper', 'scissors', 'paper', 'rock', 'scissors']
+let options = ['rock', 'paper', 'scissors', 'rock', 'paper', 'scissors']
 let isBox = false;
 
 // console.log( userScoreCount + 1 + 1 + 1 + 1 + 1 );
