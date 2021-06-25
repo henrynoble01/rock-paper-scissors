@@ -34,8 +34,8 @@
   /* background: blue; */
   position: relative;
   width: 400px;
-  left: 0;
-  transform: translateX(25%);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .logo-controller img {
@@ -108,7 +108,7 @@
 .show-winner-box {
   height: 300px;
   /* width: 450px; */
-  width: 100%;
+  width: 60%;
   display: flex;
   position: relative;
   top: 33%;
@@ -139,8 +139,9 @@
 .result-icon {
   /* bottom: 0; */
   top: 30%;
-  left: 15%;
+  left: 50%;
   transform: scale(1.5);
+  margin-left: -21%;
 }
 
 .status-box {
@@ -224,4 +225,8 @@
 
 .img-rules img {
   margin-top: 20px;
+}
+
+.remove-rules {
+  display: none;
 }

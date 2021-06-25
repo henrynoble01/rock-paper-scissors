@@ -341,7 +341,7 @@ const modal = () => {
     `
     
     body.appendChild(modalPOP)
-    return modalPOP
+    // return modalPOP
 }
 
 btnRules.addEventListener('click', () => {
@@ -351,5 +351,7 @@ btnRules.addEventListener('click', () => {
     hideModal.addEventListener('click', () => {
         let btnx = document.querySelector('.modal')
         btnx.style.display = 'none'
+        // btnx.classList.add('remove-rules')
+        // debugger
     })
 })
